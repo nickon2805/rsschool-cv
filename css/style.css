@@ -1,6 +1,22 @@
-/* .avatar__img{
+html{
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+
+.container{
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.avatar__img{
   width: 300px;
   height: 300px;
   object-fit: contain;
   border-radius: 50%;
-} */
+}
